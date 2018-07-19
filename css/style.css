@@ -1,0 +1,142 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    font-family: Arial,Microsoft YaHei,sans-serif!important;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #484848!important;
+    background-color: #fff;
+    font-kerning: normal;
+}
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-inverse {
+    background-color: #555;
+    border-color: #080808;
+}
+
+.logo {
+    width: 160px;
+    padding: 9px 4px;
+    margin-right: 20px;
+}
+
+.right-nav {
+    margin-left: auto;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    /* margin-bottom: 20px; */
+    border: 1px solid transparent;
+    border-radius: 0px;
+    height: 46px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+/*.or-class {*/
+    /*line-height: 49px;*/
+    /*color: white;*/
+/*}*/
+
+.navbar-inverse .first-ul> li {
+    padding: 0 8px;
+    border-right: 1px solid #000;
+}
+
+.navbar-header {
+    border-right: 1px solid #000;
+}
+
+.ficon {
+    margin-right: .3em;
+}
+
+.icon-height {
+    line-height: 42px;
+    margin: 3px 7px;
+}
+
+.navbar-inverse .second-ul> li {
+    padding: 0 8px;
+}
+
+.navbar-inverse .second-ul> li:nth-child(3) {
+    border-right: 1px solid #000;
+}
+
+.navbar-inverse .second-ul> li:nth-child(4) {
+    border-right: 1px solid #000;
+}
+.navbar-inverse .second-ul> li:nth-child(5) {
+    border-right: 1px solid #000;
+}
+
+
+.fa .fa-globe {
+    margin-right: .3em;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+#main-container {
+    background: #1C1C1C;
+}
+
+#main-container h2 {
+    color: #f0b90b;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 49px;
+}
+
+#main-container .content-binance {
+    text-align: center;
+}
+
+#main-container .content-binance a {
+    text-decoration: none;
+    color: white;
+}
+
+#main-container span {
+    color: #838383;
+}
+
+#main-container .content-binance a:hover {
+    color: #DEBC00; ;
+}
+
+#main-container img {
+    width: 100%;
+}
+
+#main-container .content-img {
+    margin: 45px -2px;
+}
+
+#link-id {
+    background: #2A2A2A;
+    color: white;
+}
+
+#link-id p {
+    padding: 12px;
+}
