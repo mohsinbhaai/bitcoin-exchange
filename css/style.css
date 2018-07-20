@@ -139,6 +139,10 @@ p {
     padding: 12px;
 }
 
+#link-id p:hover {
+    color: #DEBC00;
+}
+
 #features em {
     width: 80px;
     display: block;
