@@ -357,12 +357,26 @@ p {
 
 
     #trade-now .btn-group .btn-regist {
-
         background-color: #7a98f7;
         width: 178px;
-        /* height: 51px; */
+        height: 47px;
+        font-size: 14px;
+        margin-top: 5px;
+        line-height: 50px;
+    }
+
+    #main-container h2 {
+        font-size: 20px;
+    }
+
+    #features p {
+        width: 158px;
+        padding-right: 17px;
+        text-align: left;
         font-size: 13px;
-        margin-top: 10px;
+        line-height: 20px;
+        opacity: 0.5;
+        color: #191919;
     }
 
 }
