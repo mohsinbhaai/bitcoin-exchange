@@ -1,6 +1,4 @@
-html, body {
-    margin: 0;
-}
+html, body { overflow-x: hidden; }
 
 body {
     font-family: Arial,Microsoft YaHei,sans-serif!important;
@@ -121,7 +119,7 @@ p {
 }
 
 #main-container .content-binance a:hover {
-    color: #DEBC00; ;
+    color: #DEBC00;
 }
 
 #main-container img {
@@ -139,4 +137,228 @@ p {
 
 #link-id p {
     padding: 12px;
+}
+
+#features em {
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+#features em img {
+    width: 100%;
+    height: auto;
+}
+
+#features span {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 25px 0 10px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1c2736;
+}
+
+#features p {
+    width: 158px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+    opacity: 0.5;
+    color: #191919;
+}
+
+.this_row {
+    margin: 0 -7%;
+}
+
+#platform h3 {
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 150px;
+    line-height: 1;
+    text-align: center;
+}
+
+#platform p {
+    padding-top: 30px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+}
+
+/*#platform .platform {*/
+    /*width: 730px;*/
+    /*margin: auto;*/
+/*}*/
+
+/*#platform .platform .platform-download {*/
+    /*background: url(../images/background-os.png) no-repeat;*/
+    /*margin-top: 120px;*/
+    /*height: 150px;*/
+    /*position: relative;*/
+/*}*/
+
+/*#platform .platform .platform-download a {*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*height: 26px;*/
+    /*line-height: 26px;*/
+    /*min-width: 115px;*/
+    /*text-align: center;*/
+    /*border-radius: 20px;*/
+    /*border: 1px solid;*/
+/*}*/
+
+/*#platform .platform .platform-download a .os-left {*/
+
+/*}*/
+
+#platform .a-class{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#platform a {
+    height: 26px;
+    line-height: 26px;
+    min-width: 115px;
+    text-align: center;
+    border-radius: 20px;
+    /*border: 1px solid;*/
+    text-decoration: none;
+}
+
+#platform a:hover {
+    color: #DEBC00;
+}
+
+#platform img {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+}
+
+#trade-now {
+    background-color: #202437;
+    height: 353px;
+    justify-content: center
+}
+
+#trade-now h3 {
+    margin-top: 49px;
+    margin-bottom: 20px;
+    line-height: 50px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+
+#trade-now p {
+    margin-bottom: 51px;
+    line-height: 32px;
+    font-size: 18px;
+    color: hsla(0,0%,100%,.7);
+    text-align: center;
+}
+
+#trade-now .btn-group {
+    text-align: center;
+}
+
+#trade-now .btn-group a {
+    display: inline-block;
+    width: 246px;
+    height: 56px;
+    line-height: 56px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#trade-now .btn-group .btn-login {
+    border: 1px solid #c7cce6;
+    color: #c7cce6;
+    margin-right: 40px;
+}
+
+#trade-now .btn-group .btn-regist {
+    background-color: #7a98f7;
+}
+
+
+
+
+
+/***********************
+      MediaQuery
+***********************/
+
+
+@media (max-width: 640px) {
+    .btn-responsive {
+        /*display: inline-block;*/
+        width: 146px;
+        height: 26px;
+        line-height: 56px;
+        border-radius: 6px;
+        text-align: center;
+        font-size: 8px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    #trade-now .btn-group .btn-login {
+        border: 1px solid #c7cce6;
+        color: #c7cce6;
+        margin-right: 5px;
+        width: 135px;
+    }
+
+
+
+    #trade-now .btn-group .btn-regist {
+        background-color: #7a98f7;
+        width: 236px;
+    }
+
+}
+
+@media (max-width: 436px) {
+    .btn-responsive {
+        /*display: inline-block;*/
+        width: 146px;
+        height: 26px;
+        line-height: 56px;
+        border-radius: 6px;
+        text-align: center;
+        font-size: 8px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    #trade-now .btn-group .btn-login {
+        border: 1px solid #c7cce6;
+        color: #c7cce6;
+        margin-right: 5px;
+        width: 174px;
+    }
+
+
+
+    #trade-now .btn-group .btn-regist {
+
+        background-color: #7a98f7;
+        width: 178px;
+        /* height: 51px; */
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
 }
